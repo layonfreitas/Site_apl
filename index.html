@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Multi Idiomas | Protótipo para Android</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #edf3f0;
+      color: #142820;
+      font: 1rem/1.6 system-ui, sans-serif;
+    }
+    main {
+      width: min(100% - 2rem, 42rem);
+      margin: clamp(1rem, 8vw, 5rem) auto;
+      overflow: hidden;
+      border: 1px solid #d2e0d9;
+      border-radius: 1.5rem;
+      background: #fff;
+    }
+    header, section { padding: clamp(1.25rem, 5vw, 3rem); }
+    header { background: #143b30; color: #fff; }
+    .label { color: #c2e8d7; font-weight: 650; }
+    h1 { margin: .25rem 0 .75rem; font-size: clamp(2rem, 8vw, 3.5rem); line-height: 1.1; }
+    h2 { margin: 0 0 .75rem; font-size: 1.25rem; }
+    p, ol { margin: 0; }
+    a {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: .8rem 1.2rem;
+      border-radius: .75rem;
+      background: #d4f6a6;
+      color: #142820;
+      font-weight: 750;
+      text-decoration: none;
+    }
+    a:hover { background: #ebffd0; }
+    a:focus-visible { outline: 3px solid #fff; outline-offset: 4px; }
+    ol { padding-left: 1.25rem; }
+    li + li { margin-top: .5rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="label">Protótipo para Android</p>
+      <h1>Multi Idiomas</h1>
+      <p>Experimente as quatro primeiras lições do Book 1 e teste os exercícios de vocabulário, tradução e os quizzes.</p>
+      <a href="./multi-idiomas-teste.apk" download>Baixar protótipo para Android</a>
+    </header>
+    <section aria-labelledby="instalacao">
+      <h2 id="instalacao">Como instalar</h2>
+      <ol>
+        <li>Abra esta página no seu celular Android e toque no botão de download.</li>
+        <li>Abra o arquivo baixado. Se o Android pedir, permita a instalação pelo aplicativo que abriu o arquivo.</li>
+        <li>Toque em <strong>Instalar</strong> e depois em <strong>Abrir</strong>.</li>
+      </ol>
+    </section>
+  </main>
+</body>
+</html>
